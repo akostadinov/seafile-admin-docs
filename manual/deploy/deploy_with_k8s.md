@@ -293,7 +293,7 @@ and enter a container by
 kubectl exec -it seafile-748b695648-d6l4g --  bash
 ```
 
-If you modify some configurations in `/opt/seafile-data/conf` and need to restart the container, the following command can be refered:
+If you modify some configurations in `/opt/seafile-data/conf` and need to restart the container, the following commands can be refered:
 
 ```shell
 kubectl delete deployments --all
